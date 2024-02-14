@@ -1,0 +1,16 @@
+h1{
+    color: rgb(15, 108, 40);
+}
+p{
+    color:blueviolet;
+    text-align: center;
+}
+
+#p2,#p3{
+    color: aqua;
+
+}
+#div1{
+    max-width: 300;
+    margin: auto;
+}

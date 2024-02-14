@@ -1,0 +1,31 @@
+import java.io.*;
+class Hello
+{
+	public static void main(String args[])
+	{
+		System.out.println("Hello World");
+	}
+}
+
+--------------------------------------------------------------------------
+C:\Users\cclab25>E:
+
+E:\>cd MUHAMMED NIHAL\JAVA\PROJECT
+
+E:\MUHAMMED NIHAL\JAVA\PROJECT>javac Hello.java
+
+E:\MUHAMMED NIHAL\JAVA\PROJECT>java Hello
+Hello World
+
+E:\MUHAMMED NIHAL\JAVA\PROJECT>dir
+ Volume in drive E is STUDENTS
+ Volume Serial Number is 3A60-303C
+
+ Directory of E:\MUHAMMED NIHAL\JAVA\PROJECT
+
+06-12-2023  14:12    <DIR>          .
+06-12-2023  14:13    <DIR>          ..
+06-12-2023  14:12               415 Hello.class
+06-12-2023  14:12               123 Hello.java
+               2 File(s)            538 bytes
+               2 Dir(s)  499,779,706,880 bytes free

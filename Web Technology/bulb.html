@@ -1,0 +1,76 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>OddEvenBulbSum</title>
+        <script src="jsp1.js"></script> <!--Javascript linking-->
+    </head>
+    <body>
+        <label>Enter a number : </label>
+        <input type="text" id="num"><br><br>
+        <button onclick="func()">Find</button>
+        <p id="result"></p>
+
+        <br><br><hr>
+        <button onclick="lightoff()">Turn off light</button>
+        <img id="bulb" src="bulboff.gif" style="width:100px">
+        <button onclick="lighton()">Turn ON light</button>
+
+        <br><br><hr>
+        <table>
+            <tr>
+                <th><label>Enter first number : </label></th>
+                <td><input type="number" id="num1"></td>
+            </tr>
+            <tr>
+                <th><label>Enter second number : </label></th>
+                <td><input type="number" id="num2"></td>
+            </tr>
+            <tr>
+                <th colspan="2"> <button onclick="sumfun()">ADD</button></th>
+            </tr>
+            <tr>
+                <th>Sum </th>
+                <td><input type="number" id="ans"></td>
+            </tr>
+            
+        </table>
+
+        <br><br><hr>
+
+        <input type="password" id="pass" placeholder="Enter your password" onkeyup="passfunc()">
+        <p id="passout"></p>
+       
+
+        <!--Javascript code
+        <script>
+            function func(){
+                let a = document.getElementById("num").value;
+                if(a % 2 == 0){
+                    document.getElementById("result").innerHTML="Even number";
+                }
+                else{
+                    document.getElementById("result").innerHTML="ODD number";
+                }
+            }
+
+            function lightoff(){
+                document.getElementById("bulb").src="bulboff.gif";
+            }
+            function lighton(){
+                document.getElementById("bulb").src="bulbon.gif";
+            }
+
+            function sumfun(){
+                let a = parseInt(document.getElementById("num1").value);
+                let b = parseInt(document.getElementById("num2").value);
+                let c = a + b;
+                document.getElementById("ans").value= c;
+
+            }
+
+        </script>
+
+        -->
+    </body>
+</html>

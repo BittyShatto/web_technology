@@ -1,0 +1,13 @@
+1. Open wampserver.
+2. create a db
+3. create a table
+
+4. In the meantime, open C drive
+5. select wamp server --> www --> create a folder with the name of the db
+6. copy the path of the folder	
+
+7. restart wampserver from zero
+8. your virtual host mgmt and give the name of the db and paste the path of the folder
+
+open vs code and create an index.php file
+!+<enter> OR doc+<space> gives the default lines of code
